@@ -36,7 +36,9 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
-        ['label' => 'Home', 'url' => ['/']],
+        ['label' => 'Главная', 'url' => ['/']],
+        ['label' => 'Организации', 'url' => ['organization/index']],
+        ['label' => 'Расписание', 'url' => ['schedule/index']],
     ];
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],

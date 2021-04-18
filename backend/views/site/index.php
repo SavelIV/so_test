@@ -2,13 +2,13 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'SO test';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Hello</h1>
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <h1>Админка</h1>
+        <p class="lead">Здесь можно заполнить таблицы с организациями и их расписанием</p>
     </div>
 
     <div class="body-content">

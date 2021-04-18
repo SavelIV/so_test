@@ -4,13 +4,18 @@
 
 use yii\helpers\Html;
 
-$this->title = 'About';
+$this->title = 'Что это';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>This is the About page. You may modify the following file to customize its content:</p>
-
-    <code><?= __FILE__ ?></code>
+    <p>Тестовое задание:</p>
+    <p>Есть список заведений, у них свои графики работы (например заведение работает пн-пт, с 10:00 до 20:00).</p>
+    <p>Необходимо:</p>
+    <p>  - вывести список открытых заведений в текущий момент времени и сколько еще часов/минут оно будет работать до
+        закрытия</p>
+    <p>  - вывести список закрытых заведений в текущий момент времени и сколько еще часов/минут до открытия</p>
+    <p>  Информация о заведениях хранится в таблице organization (id, name).
+        Информация о графике работы заведений в таблице schedule (organization_id, day_of_week, open, close).</p>
 </div>
